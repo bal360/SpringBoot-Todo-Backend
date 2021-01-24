@@ -3,10 +3,12 @@ package com.blakelong.reactspringtodov2.service;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.blakelong.reactspringtodov2.dao.UserRepository;
 import com.blakelong.reactspringtodov2.entity.User;
 
+@Service
 public class UserServiceImpl implements UserService {
 
 	private UserRepository userRepository;
