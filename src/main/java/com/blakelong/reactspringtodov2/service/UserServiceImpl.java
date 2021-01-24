@@ -33,20 +33,24 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void save(User user) {
-		// TODO Auto-generated method stub
+		userRepository.save(user);
 
 	}
 
 	@Override
 	public void deleteById(long id) {
-		// TODO Auto-generated method stub
+		userRepository.deleteById(id);
 
 	}
 
 	@Override
 	public User findByUsername(String username) {
-		// TODO Auto-generated method stub
-		return null;
+		User user = userRepository.findByUsername(username);
+		
+		if (user == null) {
+			return null;
+		} else {
+			return user;
+		}
 	}
-
 }
