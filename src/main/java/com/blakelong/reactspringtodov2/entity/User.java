@@ -13,7 +13,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.sun.tools.javac.comp.Todo;
 
 @Entity
 @Table(name="user")
