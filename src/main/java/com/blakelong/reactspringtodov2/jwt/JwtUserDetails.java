@@ -1,4 +1,4 @@
-package com.blakelong.reactspringtodo.jwt;
+package com.blakelong.reactspringtodov2.jwt;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -1,4 +1,4 @@
-package com.blakelong.reactspringtodo.jwt;
+package com.blakelong.reactspringtodov2.jwt;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

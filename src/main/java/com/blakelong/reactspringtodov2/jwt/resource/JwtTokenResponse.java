@@ -1,4 +1,4 @@
-package com.blakelong.reactspringtodo.jwt.resource;
+package com.blakelong.reactspringtodov2.jwt.resource;
 
 import java.io.Serializable;
 

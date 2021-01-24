@@ -1,4 +1,4 @@
-package com.blakelong.reactspringtodo.jwt.resource;
+package com.blakelong.reactspringtodov2.jwt.resource;
 
 import java.util.Objects;
 
@@ -21,8 +21,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.blakelong.reactspringtodo.jwt.JwtTokenUtil;
-import com.blakelong.reactspringtodo.jwt.JwtUserDetails;
+import com.blakelong.reactspringtodov2.jwt.JwtTokenUtil;
+import com.blakelong.reactspringtodov2.jwt.JwtUserDetails;
 
 @CrossOrigin
 @RestController
