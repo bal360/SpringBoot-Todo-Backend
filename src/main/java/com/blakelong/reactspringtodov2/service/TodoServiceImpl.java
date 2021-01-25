@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.blakelong.reactspringtodov2.dao.TodoRepository;
 import com.blakelong.reactspringtodov2.entity.Todo;
 
+@Service
 public class TodoServiceImpl implements TodoService {
 
 	private TodoRepository todoRepository;
