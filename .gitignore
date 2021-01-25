@@ -33,4 +33,4 @@ build/
 .vscode/
 
 #eclipse
-src/main/resources/testGitIgnore.properties
+src/main/resources/application.properties
