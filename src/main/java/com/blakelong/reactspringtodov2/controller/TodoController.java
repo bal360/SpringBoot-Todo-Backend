@@ -44,7 +44,7 @@ public class TodoController {
 	}
 	
 	@GetMapping("/{username}/todos/{id}")
-	public Todo getTodo(@PathVariable int id, @PathVariable String username) {
+	public Todo getTodo(@PathVariable int id) {
 		return todoService.findById(id);
 	}
 	
@@ -58,7 +58,7 @@ public class TodoController {
 	}
 	
 	@PutMapping("/{username}/todos/{id}")
-	public ResponseEntity<Todo> updateTodo(@PathVariable int id, @PathVariable String username, @RequestBody Todo todo) {
+	public ResponseEntity<Todo> updateTodo(@PathVariable int id, @RequestBody Todo todo) {
 		Todo updatedTodo = todoService.findById(id);
 		updatedTodo.setDescription(todo.getDescription());
 		updatedTodo.setTargetDate(todo.getTargetDate());
