@@ -1,4 +1,4 @@
-# SpringBoot-Todo-Backend
+# Spring-Boot-Todo-Backend
 
 This is a Spring Boot API that is set up to be accessed from this frontend app [here](https://github.com/bal360/springboot-todo-frontend).
 
